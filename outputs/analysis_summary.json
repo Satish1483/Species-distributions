@@ -1,0 +1,119 @@
+{
+  "cleaning": {
+    "raw_records": 35654,
+    "clean_records": 35328,
+    "duplicates_removed": 326,
+    "missing_coords_removed": 0,
+    "records_with_year": 6291
+  },
+  "eda": {
+    "total_records": 35328,
+    "total_unique_species": 2079,
+    "top_10_species": {
+      "Pygoscelis adeliae": 2004,
+      "Pygoscelis papua": 1612,
+      "Pygoscelis antarctica": 1404,
+      "Larus dominicanus": 1008,
+      "Leucocarbo atriceps": 866,
+      "Stercorarius": 741,
+      "Macronectes giganteus": 662,
+      "Chionis albus": 633,
+      "Sterna vittata": 611,
+      "Stercorarius maccormicki": 425
+    },
+    "taxonomic_summary": {
+      "kingdoms": 7,
+      "phyla": 36,
+      "classes": 93,
+      "orders": 207,
+      "families": 406,
+      "genera": 820
+    }
+  },
+  "hotspots": [
+    {
+      "cluster": 0,
+      "n_records": 18194,
+      "centroid_lat": -64.25588512504122,
+      "centroid_lon": -61.7843176804441,
+      "n_species": 855
+    },
+    {
+      "cluster": 1,
+      "n_records": 4051,
+      "centroid_lat": -76.48689864107628,
+      "centroid_lon": 164.50858025919527,
+      "n_species": 588
+    },
+    {
+      "cluster": 4,
+      "n_records": 2957,
+      "centroid_lat": -60.69857096313832,
+      "centroid_lon": -45.53493235373689,
+      "n_species": 545
+    },
+    {
+      "cluster": 9,
+      "n_records": 1343,
+      "centroid_lat": -66.30557187565152,
+      "centroid_lon": 110.5204789054356,
+      "n_species": 272
+    },
+    {
+      "cluster": 11,
+      "n_records": 1767,
+      "centroid_lat": -68.70756456083758,
+      "centroid_lon": 77.91113785795133,
+      "n_species": 271
+    },
+    {
+      "cluster": 14,
+      "n_records": 743,
+      "centroid_lat": -71.232739730821,
+      "centroid_lon": -68.42125639300134,
+      "n_species": 226
+    },
+    {
+      "cluster": 15,
+      "n_records": 806,
+      "centroid_lat": -69.25929617617867,
+      "centroid_lon": 39.56200042679901,
+      "n_species": 219
+    },
+    {
+      "cluster": 27,
+      "n_records": 302,
+      "centroid_lat": -70.7552876821192,
+      "centroid_lon": 11.696861721854305,
+      "n_species": 173
+    },
+    {
+      "cluster": 2,
+      "n_records": 948,
+      "centroid_lat": -72.44728515506328,
+      "centroid_lon": 170.03030132700422,
+      "n_species": 166
+    },
+    {
+      "cluster": 29,
+      "n_records": 335,
+      "centroid_lat": -66.2793179402985,
+      "centroid_lon": 100.35157259701492,
+      "n_species": 166
+    }
+  ],
+  "outputs": {
+    "cleaned_data": "outputs\\cleaned_occurrence.csv",
+    "figures": [
+      "outputs\\figures\\top_species_bar_chart.png",
+      "outputs\\figures\\yearly_trend_chart.png",
+      "outputs\\figures\\richness_heatmap.png",
+      "outputs\\figures\\occurrence_scatter_map.png"
+    ],
+    "maps": [
+      "outputs\\maps\\occurrence_map.html",
+      "outputs\\maps\\richness_map.html",
+      "outputs\\maps\\hotspot_map.html"
+    ]
+  }
+}
