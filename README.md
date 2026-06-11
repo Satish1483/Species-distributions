@@ -110,4 +110,5 @@ Dataset: CC-BY 4.0 (SCAR Data Policy). See [SCAR Antarctic Biodiversity Portal](
 
 ## Author
 
-Data Science & GIS Analysis Mini Project — 2026
+Data Science & GIS Analysis Mini Project — 2026  
+BY Satish
